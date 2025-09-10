@@ -1,0 +1,10 @@
+{
+  "nucleiPath": "",
+  "templateDir": "",
+  "params": {
+    "concurrency": 50,
+    "timeout": 15
+  },
+  "selectedTemplates": [],
+  "enableAI": true
+}

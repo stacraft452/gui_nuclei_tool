@@ -1,0 +1,24 @@
+{
+  "appId": "com.nuclei.ai.tool",
+  "productName": "Nuclei AI Tool",
+  "files": [
+    "src/**/*",
+    "public/**/*",
+    "package.json"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ],
+    "artifactName": "NucleiAITool.exe",
+    "sign": false
+  },
+  "extraResources": [],
+  "asar": true,
+  "directories": {
+    "buildResources": "public"
+  }
+}
